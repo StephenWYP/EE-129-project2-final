@@ -11,7 +11,7 @@ import select          # For monitoring both stdin and sockets
 # (SOCK_STREAM is used for TCP)
 serverSocket = socket(AF_INET, SOCK_STREAM)
 
-# Set the port number
+# Set the port number.
 serverPort = 5500
 
 # Bind the socket to server address and server port
